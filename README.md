@@ -1,1 +1,1 @@
-This project is buildin a calendar that can add task and view , update , delete.
+This project is buildin a calendar that can create/add task to calender and view them  , update them , delete them.

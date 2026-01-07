@@ -18,7 +18,7 @@
         <!--Clock -->
             <div class="clock-container">
                 <div id="clock"></div>
-            </div>
+            </div> 
 
         <!-- Calendar Section-->
             <div class="calendar">
