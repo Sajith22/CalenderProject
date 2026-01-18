@@ -7,9 +7,16 @@
         <title> Calendar Project </title>
 
         <meta name="description" content="My Own Calendar Project">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+         
+        <!-- <link href="https://font.googleapis.com/css2?family=inter:weht@400;600;700&display=swap" rel="styleshhet"> -->
+         
         <link rel="stylesheet" href="style.css"/>
     </head>
-
+ 
     <body>
         <header>
             <h1> 📅Course Calendar <br> My Calendar Project</h1>
@@ -32,8 +39,8 @@
             </div>
 
         <!--Model for Add/Edit/Delete Appointment -->
-<div class="model" id="eventModel">
-    <div class="model-content">
+        <div class="model" id="eventModel">
+            <div class="model-content">
 
             <div id="eventSelectorWrapper">
                     <label for="eventSelector">
@@ -68,7 +75,7 @@
 
         <!--Delete Form-->  
 
-        <form method="POST" onsubmit="return confirm('Are you sure you want to delete this event')">
+        <form method="POST" onsubmit="return confirm('Are you sure you want to delete this appointment ?')">
             <input type="hidden" name="action" value="delete">
             <input type="hidden" name="event_id" id="deleteEventId">
             <button type="submit" class="submit-btn">🗑️ Delete</button>
